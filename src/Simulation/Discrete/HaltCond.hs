@@ -25,4 +25,3 @@ check (_, _, steps) (HaltSteps stepsLimit) = steps >= stepsLimit
 check world (HaltAll hcs)                  = all (check world) hcs
 check world (HaltAny hcs)                  = any (check world) hcs
 check _ HaltNone                           = False
-

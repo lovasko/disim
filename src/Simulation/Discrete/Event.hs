@@ -23,4 +23,3 @@ stack (seed, event) (st, evs) = (newSt, newEvs)
   where
     (newSt, evs2) = perform event st (randoms (mkStdGen seed))
     newEvs = evs ++ evs2
-

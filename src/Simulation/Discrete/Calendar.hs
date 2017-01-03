@@ -46,4 +46,3 @@ getSize (Calendar m _) = Map.size m
 getTime :: Calendar t s -- ^ calendar
         -> t            -- ^ current time
 getTime (Calendar _ t) = t
-

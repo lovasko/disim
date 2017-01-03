@@ -56,4 +56,3 @@ run world hc = map result worlds
     getSteps (World _ _ steps _) = steps
     getCalTime (World cal _ _ _) = getTime cal
     getCalSize (World cal _ _ _) = getSize cal
-
